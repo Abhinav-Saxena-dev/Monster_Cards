@@ -1,0 +1,13 @@
+.card-component{
+    display: flex;
+    flex-direction: column;
+    background-color: #95dada;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    transition: transform 0.25s ease-out;    
+}
+.card-component:hover{
+    transform: translate(0,-8px);
+}
